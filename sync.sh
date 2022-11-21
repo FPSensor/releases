@@ -1,4 +1,5 @@
 #!/bin/bash
+source "${my_dir}"/config.sh
 echo "Sync started for ${manifest_url}/tree/${branch}"
 if [ "${jenkins}" == "true" ]; then
     telegram -i ${RELEASES_DIR}/assets/sync1.png -M "Sync started for [${ROM} ${ROM_VERSION}](${manifest_url}/tree/${branch}): [See Progress](${BUILD_URL}console)"
