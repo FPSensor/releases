@@ -24,5 +24,6 @@ export ccache_size=""
 export jenkins="true"
 
 export release_repo="FPSensor/releases"
+export RELEASES_DIR="${WORKSPACE}/releases"
 
 export timezone="UTC"
