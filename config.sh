@@ -6,7 +6,7 @@ export GITHUB_EMAIL="gkartytgmail.com"
 export device=""
 
 export ROM=""
-export ROM_DIR=""
+export ROM_DIR="${WORKSPACE}"
 export ROM_VERSION=""
 export local_manifest_url=""
 export manifest_url=""
