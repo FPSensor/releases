@@ -16,7 +16,7 @@ export bacon=""
 export buildtype=""
 export clean=""
 export generate_incremental=""
-export upload_recovery=""
+export upload_recovery="true"
 
 export ccache="true"
 export ccache_size="50"
