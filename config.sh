@@ -18,8 +18,8 @@ export clean=""
 export generate_incremental=""
 export upload_recovery=""
 
-export ccache=""
-export ccache_size=""
+export ccache="true"
+export ccache_size="50"
 
 export jenkins="true"
 
