@@ -1,6 +1,6 @@
 #!/bin/bash
 if [ ! -d "releases" ]; then
-    git clone https://github.com/FPSensor/releases.git
+    git clone https://github.com/FPSensor/releases.git -b rhode-RisingOS-13
     cd releases
 else
     cd releases
